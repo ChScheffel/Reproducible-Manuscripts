@@ -28,10 +28,14 @@ First, we will make all the necessary preparations in R and GitHub. Then we will
 ## GitHub and Git
 
 First, you have to sign up at GitHub (https://github.com/) and download Git (if you have trouble installing Git, I would recommend [this](https://happygitwithr.com/install-git.html) tutorial). 
-\
+
 _Attention! If you use Windows, Git will automatically be installed into you C:/Program Files/ directory. Often, the space in the directory name causes problems. Therefore, I would recommend to choose a differenct directory for installation._
-\
+
 
 ## RStudio
 
-Now that Git is installed, we need to link it to RStudio 
+Now that Git is installed, we need to link it to RStudio. Open RStudio and go to \textsc{Tools -> Global Options}. Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field.
+
+![Integrate Git](Integrate_Git.png) 
+
+
