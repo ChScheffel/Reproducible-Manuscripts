@@ -109,6 +109,7 @@ _Pulling_ and _pushing_ ist the essential feature for collaborative work! So mak
 knitr::include_graphics("images/pull.png")
 ```
 
+\newpage
 # Collaborative work
 
 In this section you will learn how to work collaboratively.  
