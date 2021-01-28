@@ -37,11 +37,20 @@ _Attention! If you use Windows, Git will automatically be installed into you C:/
 Now that Git is installed, we need to link it to RStudio. Open RStudio and go to \textsc{Tools -> Global Options}. Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field and klick \textsc{OK}.
 
 ```{r pressure, echo=FALSE, fig.cap="", fig.align="center", out.width = '75%'}
-knitr::include_graphics("C:/Users/scheffel/Scheffel/R/Reproducible-Manuscripts/Integrate_Git.png")
+knitr::include_graphics("images/Integrate_Git.png")
 ``` 
 
 Now everything is set up and you can start a new collaborative project!
 
 \newpage
-# Create projects
+# Create new projects
 
+First we need to set up a new repository on GitHub. Sign in on GitHub, go to the \textsc{+} in the top right corner and klick on \textsc{New repository}. Choose an appropriate name that you can easily remember. As ther will be created folders later on, I would not recommend to use blank spaces in your names.Further, I recommend adding a README file where you can write extensive descriptions of your projects. Klick on \textsc{Create Repository} and you are good to go! Make note of the GitHub address for you repository. Klick on \textsc{Code} and now on the Notepad symbole next to the HTTPS address. The address to your repository is now stored in the clipboard. 
+
+```{r pressure, echo=FALSE, fig.cap="", fig.align="center", out.width = '75%'}
+knitr::include_graphics("images/save_address.png")
+``` 
+
+### Integrade projects in RStudio
+
+Open RStudio an klick on \textsc{File -> New Project}.
