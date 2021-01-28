@@ -1,0 +1,27 @@
+---
+title: "Reproducible Manuscripts and collaborative work in R"
+author: "Christoph Scheffel"
+date: "28 Januar 2021"
+output: pdf_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Preliminary Notes
+
+This tutorial is intended to facilitate collaborative work on R analyses and RMarkdown manuscripts. Mittels RMarkdown können Manuskripte verfasst werden. Manuscripts can be written using RMarkdown. Results from analyses in R can be automatically integrated into the text. This is extremely helpful and provides a great benefit.One drawback, however, is that collaborative work is made more difficult because annotations and comments are difficult to insert.This can be at least partially solved with the help of Git Hub. Since there is a multitude of implementation possibilities, this tutorial does not claim to be exhaustive.
+All information listed here have been drawn and prepared from various documentations and tutorials, for example:
+
+* https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
+* https://resources.github.com/whitepapers/github-and-rstudio/
+* https://static1.squarespace.com/static/5757268f7da24f26ca7b21d2/t/5c7587114192021796d7cc84/1551206162093/R_Overleaf_Integration.pdf
+
+First, we will make all the necessary preparations in R and Git-Hub. Then we will describe how to work collaboratively on scripts and texts. 
+
+# Setup
+
+
+
