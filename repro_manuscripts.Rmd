@@ -38,12 +38,14 @@ First, you will make all the necessary preparations in RStudio and GitHub. Then 
 
 First, you have to sign up at GitHub (https://github.com/) and download Git (if you have trouble installing Git, I would recommend [this](https://happygitwithr.com/install-git.html) tutorial). 
 
-_Attention! If you use Windows, Git will automatically be installed into you C:/Program Files/ directory. Often, the space in the directory name causes problems. Therefore, I would recommend to choose a differenct directory for installation._
-
+_Attention! If you use Windows, Git will automatically be installed into you C:/Program Files/ directory. Often, the space in the directory name causes problems._ 
+_Therefore, I would recommend to choose a differenct directory for installation._
 
 ## RStudio
 
-Now that Git is installed, you need to link it to RStudio. Open RStudio and go to \textsc{Tools -> Global Options}. Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field and klick \textsc{OK}.
+Now that Git is installed, you need to link it to RStudio. 
+Open RStudio and go to \textsc{Tools -> Global Options}. 
+Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field and klick \textsc{OK}.
 
 ```{r img1, echo=FALSE, fig.cap="", fig.align="center", out.width = '75%'}
 knitr::include_graphics("images/Integrate_Git.png")
@@ -56,7 +58,14 @@ Now everything is set up and you can start a new project!
 
 ### Create new projects
 
-First you need to set up a new repository on GitHub. Sign in on GitHub, go to the \textsc{+} in the top right corner and klick on \textsc{New repository}. Choose an appropriate name that you can easily remember. As there will be created folders later on, I would not recommend to use blank spaces in your names. Further, I recommend adding a _README_ file where you can write extensive descriptions of your projects. Klick on \textsc{Create Repository} and you are good to go! Make note of the GitHub address for you repository. Klick on \textsc{Code} and now on the Notepad symbole next to the HTTPS address. The address to our repository is now stored in the clipboard. 
+First you need to set up a new repository on GitHub. 
+Sign in on GitHub, go to the \textsc{+} in the top right corner and klick on \textsc{New repository}. 
+Choose an appropriate name that you can easily remember. 
+As there will be created folders later on, I would not recommend to use blank spaces in your names. 
+Further, I recommend adding a _README_ file where you can write extensive descriptions of your projects. 
+Klick on \textsc{Create Repository} and you are good to go! 
+Make note of the GitHub address for you repository. Klick on \textsc{Code} and now on the Notepad symbole next to the HTTPS address. 
+The address to our repository is now stored in the clipboard. 
 
 ```{r img2, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
 knitr::include_graphics("images/save_address.png")
@@ -64,24 +73,37 @@ knitr::include_graphics("images/save_address.png")
 
 ### Integrate projects in RStudio
 
-Open RStudio an click on \textsc{File -> New Project}. Select the option \textsc{Version Control -> Git}. Now paste the address of your Git repository in the first line. A new folder with the exact name of your Git repository will be created as subdirectory. _Do not change the folder name!_ The location can be specified in the third line. All files from the Git repository are now copied to the local folder and you should be able to see all files from this repository in the \textsc{FILES} tap inside of RStudio. Now your R project is linked to the Git repository and you can start working.
+Open RStudio an click on \textsc{File -> New Project}. 
+Select the option \textsc{Version Control -> Git}. 
+Now paste the address of your Git repository in the first line. 
+A new folder with the exact name of your Git repository will be created as subdirectory. 
+_Do not change the folder name!_ 
+The location can be specified in the third line. 
+All files from the Git repository are now copied to the local folder and you should be able to see all files from this repository in the \textsc{FILES} tap inside of RStudio. 
+Now your R project is linked to the Git repository and you can start working.
 
 ## Committing
 
-You can create and edit files in RStudio, as you are used to. For example you could open and edit the README file, you created in the Git repository. Now you have to commit changes to the Git repository. Click on the  \textsc{Version Control button} in the control panel and select \textsc{Commit...}. 
+You can create and edit files in RStudio, as you are used to. 
+For example you could open and edit the README file, you created in the Git repository. Now you have to commit changes to the Git repository. 
+Click on the  \textsc{Version Control button} in the control panel and select \textsc{Commit...}. 
 
 ```{r img3, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
 knitr::include_graphics("images/committing.png")
 ```
-A new window opens were you can review all changes made. Add a comment explaining briefly all changes you made since the last commit and click on \textsc{Commit}.  
+A new window opens were you can review all changes made. 
+Add a comment explaining briefly all changes you made since the last commit and click on \textsc{Commit}.  
 ```{r img4, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
 knitr::include_graphics("images/commit_edit.png")
 ```
 All committed files should now disappear in the _Git_ tap. 
 
 ## Pushing and Pulling
-If you start working with your project, you should always _pull_ the latest version from your Git repository from GitHub. Further, once you committed all your changes, you can _pull_ the latest version of the Git repository from GitHub. 
-After you finished _pulling_ you can _push_ your changes to the Git repository (i.e. upload your changes). _Pulling_ and _pushing_ ist the essential feature for collaborative work! So make shure you and your collaborators always work with up to date files.  \textsc{Note}: The sequence of buttons on the RStudio git panel (that you can see in the picture) matches the sequence of actions necessary to submit changes to Git repository.
+If you start working with your project, you should always _pull_ the latest version from your Git repository from GitHub. 
+Further, once you committed all your changes, you can _pull_ the latest version of the Git repository from GitHub. 
+After you finished _pulling_ you can _push_ your changes to the Git repository (i.e. upload your changes). 
+_Pulling_ and _pushing_ ist the essential feature for collaborative work! So make shure you and your collaborators always work with up to date files.  
+\textsc{Note}: The sequence of buttons on the RStudio git panel (that you can see in the picture) matches the sequence of actions necessary to submit changes to Git repository.
 
 
 # Collaborative work
