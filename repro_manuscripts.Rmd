@@ -22,8 +22,8 @@ All information listed here have been drawn and prepared from various documentat
 
 First, we will make all the necessary preparations in R and GitHub. Then we will describe how to work collaboratively on scripts and texts. 
 
-
-# Setup
+\newpage
+# Set up Git and RStudio
 
 ## GitHub and Git
 
@@ -34,8 +34,14 @@ _Attention! If you use Windows, Git will automatically be installed into you C:/
 
 ## RStudio
 
-Now that Git is installed, we need to link it to RStudio. Open RStudio and go to \textsc{Tools -> Global Options}. Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field.
+Now that Git is installed, we need to link it to RStudio. Open RStudio and go to \textsc{Tools -> Global Options}. Navigate to \textsc{Git/SVN}, check \textsc{Enable version control interface for RStudio projects} and paste the path to your Git executable in the corresponding field and klick \textsc{OK}.
 
-![Integrate Git](Integrate_Git.png) 
+```{r pressure, echo=FALSE, fig.cap="", fig.align="center", out.width = '75%'}
+knitr::include_graphics("C:/Users/scheffel/Scheffel/R/Reproducible-Manuscripts/Integrate_Git.png")
+``` 
 
+Now everything is set up and you can start a new collaborative project!
+
+\newpage
+# Create projects
 
