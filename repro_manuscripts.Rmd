@@ -104,7 +104,9 @@ Further, once you committed all your changes, you can _pull_ the latest version 
 After you finished _pulling_ you can _push_ your changes to the Git repository (i.e. upload your changes). 
 _Pulling_ and _pushing_ ist the essential feature for collaborative work! So make shure you and your collaborators always work with up to date files.  
 \textsc{Note}: The sequence of buttons on the RStudio git panel (that you can see in the picture) matches the sequence of actions necessary to submit changes to Git repository.
-
+```{r img5, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
+knitr::include_graphics("images/pull.png")
+```
 
 # Collaborative work
 
