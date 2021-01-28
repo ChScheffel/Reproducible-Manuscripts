@@ -67,7 +67,7 @@ Klick on \textsc{Create Repository} and you are good to go!
 Make note of the GitHub address for you repository. Klick on \textsc{Code} and now on the Notepad symbole next to the HTTPS address. 
 The address to our repository is now stored in the clipboard. 
 
-```{r img2, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
+```{r img2, echo=FALSE, fig.cap="", fig.pos="h", fig.align="center", out.width = '30%'}
 knitr::include_graphics("images/save_address.png")
 ``` 
 
@@ -88,12 +88,13 @@ You can create and edit files in RStudio, as you are used to.
 For example you could open and edit the README file, you created in the Git repository. Now you have to commit changes to the Git repository. 
 Click on the  \textsc{Version Control button} in the control panel and select \textsc{Commit...}. 
 
-```{r img3, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
+```{r img3, echo=FALSE, fig.cap="", fig.pos="h", fig.align="center", out.width = '50%'}
 knitr::include_graphics("images/committing.png")
 ```
+\newpage
 A new window opens were you can review all changes made. 
 Add a comment explaining briefly all changes you made since the last commit and click on \textsc{Commit}.  
-```{r img4, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
+```{r img4, echo=FALSE, fig.cap="", fig.pos="h", fig.align="center", out.width = '50%'}
 knitr::include_graphics("images/commit_edit.png")
 ```
 All committed files should now disappear in the _Git_ tap. 
@@ -104,7 +105,7 @@ Further, once you committed all your changes, you can _pull_ the latest version 
 After you finished _pulling_ you can _push_ your changes to the Git repository (i.e. upload your changes). 
 _Pulling_ and _pushing_ ist the essential feature for collaborative work! So make shure you and your collaborators always work with up to date files.  
 \textsc{Note}: The sequence of buttons on the RStudio git panel (that you can see in the picture) matches the sequence of actions necessary to submit changes to Git repository.
-```{r img5, echo=FALSE, fig.cap="", fig.align="center", out.width = '50%'}
+```{r img5, echo=FALSE, fig.cap="", fig.pos="h", fig.align="center", out.width = '100%'}
 knitr::include_graphics("images/pull.png")
 ```
 
