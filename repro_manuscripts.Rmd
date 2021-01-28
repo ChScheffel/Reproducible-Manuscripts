@@ -73,7 +73,7 @@ knitr::include_graphics("images/save_address.png")
 
 ### Integrate projects in RStudio
 
-Open RStudio an click on \textsc{File -> New Project}. 
+Open RStudio an click on \textsc{File -> New Project}. <!-- commend in RMarkdown-->
 Select the option \textsc{Version Control -> Git}. 
 Now paste the address of your Git repository in the first line. 
 A new folder with the exact name of your Git repository will be created as subdirectory. 
@@ -110,8 +110,15 @@ knitr::include_graphics("images/pull.png")
 ```
 
 \newpage
-# Collaborative work
+# Collaborative writing with RMarkdown scripts
 
-In this section you will learn how to work collaboratively.  
+In this section you will learn how to collaborative writing works with your reproducible manuscripts.
 
-t.b.c.
+## Tips and tricks
+Lastly here are some tips and tricks that that can facilitate collaborative writing:
+
+1. In your RMarkdown file, use a new line for each sentence. Otherwise, GitHub will mark the whole paragraph although a co-worker only changed one sentence, because all sentences were in the same line.
+2. Work with small commits! For every change or comment you make, commit the change. If you do all your changes and pull the whole file at the end, it gets very chaotic.
+3. Everything gets a lot easier if you split you manuscript in several _.Rmd_ files. I would recommend using an own _.Rmd_ file for each section.
+
+
