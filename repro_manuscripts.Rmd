@@ -112,13 +112,20 @@ knitr::include_graphics("images/pull.png")
 \newpage
 # Collaborative writing with RMarkdown scripts
 
-In this section you will learn how to collaborative writing works with your reproducible manuscripts.
+In this section I want to show you one way how collaborative writing works with your reproducible manuscripts.
+
+## Branching
+
+## Recommended workflow
 
 ## Tips and tricks
 Lastly here are some tips and tricks that that can facilitate collaborative writing:
 
-1. In your RMarkdown file, use a new line for each sentence. Otherwise, GitHub will mark the whole paragraph although a co-worker only changed one sentence, because all sentences were in the same line.
-2. Work with small commits! For every change or comment you make, commit the change. If you do all your changes and pull the whole file at the end, it gets very chaotic.
-3. Everything gets a lot easier if you split you manuscript in several _.Rmd_ files. I would recommend using an own _.Rmd_ file for each section.
+1. In your RMarkdown file, use a new line for each sentence (as you can see in this _.Rmd_ document). 
+Otherwise, GitHub will mark the whole paragraph although a co-worker only changed one sentence, because all sentences were in the same line.
+2. Work with small commits! For every change or comment you make, commit the change. 
+If you do all your changes and pull the whole file at the end, it gets very chaotic.
+3. Everything gets a lot easier if you split you manuscript in several _.Rmd_ files. 
+I would recommend using an own _.Rmd_ file for each section.
 
 
