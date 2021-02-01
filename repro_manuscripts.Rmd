@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Manuscripts and collaborative work in R"
 author: "Christoph Scheffel"
-
+date: "January, 2021"
 output: pdf_document
 
 ---
