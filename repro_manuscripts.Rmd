@@ -116,7 +116,24 @@ In this section I want to show you one way how collaborative writing works with 
 
 ## Branching
 
+Branching is great for working on a project as a team.
+In short, a branch is a copy of the whole project.
+You can try out ideas in your branch, or comment texts, without affecting the \textsc{main} project.
+After all comments have been edited, you can merge your branch into the main branch.
+Once merged, pull requests preserve a record of the historical changes of your code.
+
+
+More detailed information on branching can be found here: https://guides.github.com/introduction/flow/ .
+
+
 ## Recommended workflow
+
+1. Author A writes the first draft of the manuscript.
+2. Author B branches the project in GitHub, checks the code and makes edits.
+3. Author B pushes the changes only in the seperate branch and adds comments in the commit log.
+4. After author B is done, a pull request is created to merge the edits of the seperate branch to the main branch.
+Author A can see all changes and comments in the commit log.
+5. Author A implements edits and responds to comments. 
 
 ## Tips and tricks
 Lastly here are some tips and tricks that that can facilitate collaborative writing:
